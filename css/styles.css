@@ -31,6 +31,10 @@ margin: 0 auto;
 padding: 0 15px;
 }
 
+div {display: flex;
+}
+
+
 nav {
     display: flex;
     align-items: center;
