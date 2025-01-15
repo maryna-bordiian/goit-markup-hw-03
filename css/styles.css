@@ -144,7 +144,7 @@ gap: 40px;}
 gap: 24px;
 }
 
-.features-list-item {width: calc((100% - 72px) / 4);}
+.features-list-item {flex-basis: calc((100% - 3 * 24px) / 4)}
 
 button:hover, button:focus {
     background-color: #404BBF;
