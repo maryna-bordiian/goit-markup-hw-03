@@ -140,6 +140,12 @@ gap: 40px;}
     overflow: hidden;
 }
 
+.features-list {display: flex;
+gap: 24px;
+}
+
+.features-list-item {width: calc((100% - 72px) / 4);}
+
 button:hover, button:focus {
     background-color: #404BBF;
 }
@@ -150,9 +156,8 @@ button:hover, button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
-
-
 
 .main-hero-text {
     font-size: 16px;
