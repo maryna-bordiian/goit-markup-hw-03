@@ -199,29 +199,47 @@ button:hover, button:focus {
     color: #434455;
     }
 
-.our-team {
-    background-color: #F4F4FD;
+.main-team {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.main-team-text {
+    text-align: center;
+}
+
+
+.section-three {
+    background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
+    margin-top: 0;
 }
 
-.team-photo {
-    background-color: #FFFFFF;
+.team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 
-.main-team {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.team-photo{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name-box {
+    padding: 32px 0;
+    background-color: #fff;
 }
 
 .main-team-text {
@@ -229,6 +247,9 @@ button:hover, button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+
 
 .our-portfolio {
     font-size: 36px;
