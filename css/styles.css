@@ -1,10 +1,17 @@
-body {font-family: "Roboto", sans-serif;
+body {
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;
 }
 
 ol, ul {list-style: none;
 margin: 0;
+padding-left: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 img {display: block;}
@@ -26,14 +33,10 @@ a {text-decoration: none;
 
 .page-header {border-bottom: 1px solid #e7e9fc;}
 
-.container {width: 1158px;
+.container {max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
 }
-
-div {display: flex;
-}
-
 
 nav {
     display: flex;
@@ -41,7 +44,9 @@ nav {
 }
 
 
-.box-header {display: flex;}
+.box-header {
+    display: flex;
+}
 
 .header-logo {
     margin-right: 76px;
@@ -59,8 +64,10 @@ nav {
     margin-bottom: 16px;
 }
 
-.nav-list {display: flex;
-gap: 40px;}
+.nav-list {
+   display: flex;
+   gap: 40px;
+}
 
 .nav-link {
     font-weight: 500;
@@ -69,20 +76,32 @@ gap: 40px;}
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .contacts {
     font-style: normal;
+    padding: 24px 0;
+    margin-left: auto;
 }
 
-.contacts-list {display: flex;
-gap: 40px;}
+.header-adress {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
 
 .contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -96,15 +115,22 @@ gap: 40px;}
 .main-banner {
     background-color: #2e2f42;
     padding: 188px 0;
+    
 }
 
 .main-banner-text {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #ffffff;
     max-width: 496px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-bottom: 48px;
+    text-align: center;
+    
 }
 
 .main-btn {
@@ -120,12 +146,21 @@ gap: 40px;}
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4d5ae5;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
-.section-two {padding: 120px 0;}
+.section-two {padding: 120px 0;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    margin: 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -140,11 +175,9 @@ gap: 40px;}
     overflow: hidden;
 }
 
-.features-list {display: flex;
-gap: 24px;
-}
-
-.features-list-item {width: calc((100% - 72px) / 4);}
+.features-list-item {
+    width: calc((100% - 72px) / 4);
+    margin: 0 }
 
 button:hover, button:focus {
     background-color: #404BBF;
@@ -163,7 +196,8 @@ button:hover, button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+    }
 
 .our-team {
     background-color: #F4F4FD;
