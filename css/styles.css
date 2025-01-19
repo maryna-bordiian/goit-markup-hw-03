@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 /* common */
 
 .container {
@@ -111,10 +115,11 @@ a {
 }
     
 
-.main-banner {
+/* main*/
+
+.section-one {
     background-color: #2e2f42;
     padding: 188px 0;
-    
 }
 
 .main-banner-text {
@@ -122,14 +127,13 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
     max-width: 496px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
     padding-bottom: 48px;
-    text-align: center;
-    
 }
 
 .main-btn {
@@ -140,6 +144,7 @@ a {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+
     display: block;
     background-color: #4d5ae5;
     min-width: 169px;
@@ -151,14 +156,12 @@ a {
     
 }
 
-.section-two {padding: 120px 0;
+button:hover,
+button:focus {
+    background-color: #404BBF;
 }
 
-.features-list {
-    display: flex;
-    gap: 24px;
-    text-align: left;
-    margin: 0;
+.section-two {padding: 120px 0;
 }
 
 .visually-hidden {
@@ -174,13 +177,20 @@ a {
     overflow: hidden;
 }
 
+.features-list {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    margin: 0;
+}
+
 .features-list-item {
     width: calc((100% - 72px) / 4);
-    margin: 0 }
-
-button:hover, button:focus {
-    background-color: #404BBF;
+    margin: 0;
+    gap: 24px;
+    
 }
+
 
 .main-hero {
     font-weight: 500;
@@ -295,9 +305,7 @@ button:hover, button:focus {
     padding-bottom: 16px;
 }
 
-img {
-    display: block;
-}
+
 
 button {
     cursor: pointer;
