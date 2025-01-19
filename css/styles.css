@@ -161,7 +161,8 @@ button:focus {
     background-color: #404BBF;
 }
 
-.section-two {padding: 120px 0;
+.section-two { 
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -188,7 +189,6 @@ button:focus {
     width: calc((100% - 72px) / 4);
     margin: 0;
     gap: 24px;
-    
 }
 
 
